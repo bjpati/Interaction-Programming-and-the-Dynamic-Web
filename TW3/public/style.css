@@ -1,0 +1,50 @@
+/* A debug class, used to separate components graphically during development */
+.debug {
+    border-style:solid;
+}
+.TODO{
+    text-align: right;
+}
+
+.flexParent{
+    display: flex;
+    flex-wrap:wrap; 
+    height:100%;
+    
+}
+
+.sidebar{
+    width: auto;
+    height: 100%;
+        
+}
+
+.mainContent{
+    width: auto;  
+    text-align: left;
+}
+
+@media screen and (max-width:500px){
+    .flexParent{
+        display: flex;
+        flex-direction:row; 
+        height:100%;
+    }
+}
+
+.searchResult{
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    padding: 20 px;
+}
+
+.details{
+    border-style: solid;
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
